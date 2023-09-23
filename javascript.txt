@@ -1,0 +1,72 @@
+//var a = input();
+//var b = input();
+//var c = input();
+//var d = input();
+//var menor = a;
+//var menor = -1;
+//if (a > 0) {
+//	menor = a;
+}
+if (b > 0) {
+	menor = b;
+}
+if (c > 0) {
+	menor = c;
+}
+if (d > 0) {
+	menor = d;
+}
+output(menor);
+
+
+
+var atual;
+var meunumero;
+var quantidade = 1;
+meunumero =input();
+while (atual!== meunumero){
+  quantidade= quantidade+1 ;
+  atual=input();
+    
+    
+}
+output (quantidade);
+
+var altura ;
+var media=0;
+var j;
+var total
+j=input(); 
+while(j !== 0){
+    input(altura);
+    media= media+1;
+    input(j);
+    
+}
+output (total=altura/media);
+
+
+
+
+var somaAlturas = 0;
+var alunos = 0;
+var altura;
+
+altura = input();
+while(altura !== 0) {
+	somaAlturas = somaAlturas + altura;
+	alunos = alunos + 1;
+	altura = input();
+}
+
+output(somaAlturas / alunos);
+
+var i = 1;
+while(i <= 40) {
+	if (i % 4 === 0) {
+		output(-1);
+	}
+	else {
+		output(i);
+	}
+	i = i + 1;
